@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">
+			<![CDATA[jdbc:mysql://localhost:3306/cakeshop?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=true]]>
+		</property>
+		<property name="user">root</property>
+		<property name="password">123456</property>
+	</default-config>
+</c3p0-config>
